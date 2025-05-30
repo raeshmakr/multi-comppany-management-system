@@ -1,0 +1,32 @@
+# Django Framework
+Django>=4.2,<5.0
+
+# PostgreSQL Adapter
+psycopg2-binary>=2.9
+
+# Django REST Framework
+djangorestframework>=3.14
+
+# JWT Authentication
+djangorestframework-simplejwt>=5.3
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Gunicorn for Deployment
+gunicorn>=21.2
+
+# Multitenancy (Optional)
+django-tenants>=3.4  # or django-tenant-schemas>=1.10.0
+
+# CORS headers (for frontend API access)
+django-cors-headers>=4.0
+
+# Pillow for image/logo uploads
+Pillow>=10.0
+
+# Static file management
+whitenoise>=6.6.0
+
+# Charting library (if you're generating charts)
+matplotlib>=3.8
